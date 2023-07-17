@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #000000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.body {
+    background:  #CDD4DA;
+    padding: 55px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.body h1 {
+    margin-bottom: 86px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body button {
+    border-radius: 5px;
+    color:  #A98740;
+    padding: 31px 59px;
+    border: 0;
+    font-size: 70px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Up {
+    background:#FFCF40;
+}
+
+.Down{
+    background: #FFCF40;
+}
+
+.Clear {
+    background: #FFCF40;
+}
