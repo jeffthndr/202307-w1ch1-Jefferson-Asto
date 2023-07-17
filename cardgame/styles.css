@@ -1,0 +1,144 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-align: center;
+  padding: 30px;
+  font-size: 3rem;
+}
+
+.buttonStart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-top: 100px;
+}
+
+.start-button {
+  border-radius: 9px;
+  margin: 10px;
+  padding: 0.5em 1em;
+  font-size: inherit;
+  width: 150px;
+  cursor: pointer;
+}
+
+.cards-section {
+  height: 350px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.random-default {
+  height: 100%;
+  width: 250px;
+  border: 2.5px solid black;
+  border-radius: 25px;
+  display: grid;
+  grid-template: 33.333% 33.333% 33.333% / 100%;
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.defaultUpperSuit {
+  justify-self: start;
+  align-self: center;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+
+.defaultCardNumber {
+  justify-self: center;
+  align-self: center;
+}
+
+.defaultBottomSuit {
+  justify-self: end;
+  align-self: center;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.random-user {
+  height: 100%;
+  width: 250px;
+  border: 2.5px solid black;
+  border-radius: 25px;
+  display: grid;
+  grid-template: 33.333% 33.333% 33.333% / 100%;
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.userUpperSuit {
+  justify-self: start;
+  align-self: center;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+
+.userCardNumber {
+  justify-self: center;
+  align-self: center;
+}
+
+.userBottomSuit {
+  justify-self: end;
+  align-self: center;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.message-box {
+  height: 80px;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin: 10px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.bigger {
+  border-radius: 9px;
+  margin: 10px;
+  padding: 0.5em 1em;
+  font-size: inherit;
+  width: 150px;
+  cursor: pointer;
+}
+
+.smaller {
+  border-radius: 9px;
+  margin: 10px;
+  padding: 0.5em 1em;
+  font-size: inherit;
+  width: 150px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
